@@ -1,0 +1,810 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: yellow;
+}
+
+main{
+	width: 1200px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/spidermanfondo.jpg);
+	background-size: 110%;
+	background-position: 20% 20%;
+
+}
+
+header{
+	width: 1200px;
+	height: 75px;
+	background-color:#161B21;
+	opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:10px 15px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 22px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;	
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 3.5rem;
+  margin-left: 100px;
+  margin-top: 55px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 3rem;
+  margin-bottom:160;
+  margin-left: 100px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 4px -3px 5px rgba(255,255,255,0.57);
+}
+
+p{
+	color: white;
+	line-height: 1.4rem;
+	font-size: 0.9rem;
+	margin-left: 100px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 1200px;
+	height: 70px;
+	margin-top: 16px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 22px;
+	font-size: 20px;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 16px;
+	width: 150px;
+	height: 35px;
+	float: left;
+	
+}
+
+.uces {
+	height: 38px;
+	width: 55px;
+	float: right;
+	margin-top: 15px;
+
+	
+}
+.logo{
+	margin-left: 30px;
+	width: 130px;
+	height: 50px;
+	margin-top: 10px;
+	float: left;	
+}
+
+.escenauno{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenados{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenatres{
+    width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+#escenas{
+    width: 300px;
+	height: 650px;
+	padding-left: 50px;
+	margin-top: 50px;
+	text-align: left;
+
+}
+
+article{
+	width: 1200px;
+	height: 540px;
+	display: flex;
+	flex-direction: row-reverse;
+	}
+
+section{
+	width: 870px;
+}
+
+
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 200px) and (max-width: 767px) {
+ body{ background-color: yellow; } 
+ 
+    main{
+	width: 576px;
+	height:700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/spidermanvertical.jpg);
+
+}
+
+header{
+	width: 576px;
+	height: 120px;
+	background-color:#161B21;
+	opacity: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	margin: auto;
+	margin-top: 10px;
+}
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:6px 10px;
+    background-color:#eb2f06;
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: 20px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;	
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li: hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 50px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 0px;
+  text-align: center;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);
+}
+h2{
+  color: #F2F2F2;
+  font-size: 50px;
+  margin-bottom:5px;
+  margin-left: 0px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);
+
+
+}
+
+p{
+	color: white;
+	line-height: 25px;
+	font-size: 22px;
+	padding-left: 0px;
+    margin-top: 40px;
+	letter-spacing: 1.5px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	margin-left: 0px;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 576px;
+	height: 55px;
+	margin-top: 155px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;								
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 18px;
+	font-size: 14px;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 15px;
+	width: 130px;
+	height: 25px;
+	float: left;
+	
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 13px;
+	
+}
+.logo{
+	text-align: center;
+	width: 130px;
+	height: 40px;
+	margin-top: 6px;
+	margin-left: 215px;
+	float: left;	
+}
+
+.escenauno{
+	display: none;
+	width: 300px;
+	height: 150px;
+	margin-left: 25px;
+}
+
+.escenados{
+	display: none;
+	width: 300px;
+	height: 150px;
+	margin-left: 25px;
+}
+
+.escenatres{
+	display: none;
+    width: 300px;
+	height: 150px;
+	margin-left: 25px;
+}
+
+#escenas{
+    width: 300px;
+	height: 650px;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 20px;
+	text-align: center;
+	display: none;
+
+}
+
+article{
+	width: 576px;
+	height: 370px;
+	display: flex;
+	flex-direction: row-reverse;
+	}
+
+section{
+	width: 576px;
+}
+ 
+ }
+
+/*Medium (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+ body{ background-color: yellow; } 
+
+
+main{
+	width: 768px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/spfondonegro.jpeg);
+	background-size: 110%;
+	background-position: 25% 20%;
+
+}
+
+header{
+  width: 768px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+  li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 55px;
+  margin-left: 65px;
+  margin-top: 75px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 50px;
+  margin-bottom:160;
+  margin-left: 65px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);
+
+
+}
+
+p{
+	color: white;
+	line-height: 25px;
+	font-size: 16px;
+	margin-left: 65px;
+    margin-top: 45px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 768px;
+	height: 60px;
+	margin-top: 175px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 15px;
+	font-size: 1em;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 15px;
+	width: 150px;
+	height: 30px;
+	float: left;
+	
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 15px;
+
+	
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+
+.escenauno{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenados{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenatres{
+    width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+#escenas{
+    width: 300px;
+	height: 650px;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 15px;
+	margin-top: 50px;
+	text-align: center;
+	display: invisible;
+
+}
+
+section {
+	width: 640px;
+}
+
+article{
+	width: 768px;
+	height: 395px;
+	display: flex;
+	flex-direction: row-reverse;
+	}
+}
+
+/*Large (escritorio, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+body{ background-color: yellow; } 
+
+main{
+	width: 992px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/spfondonegro.jpeg);
+	background-size: 110%;
+	background-position: 25% 20%;
+
+}
+
+header{
+  width: 992px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:105px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 60px;
+  margin-left: 75px;
+  margin-top: 65px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 50px;
+  margin-bottom:160;
+  margin-left: 75px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);
+}
+
+p{
+	color: white;
+	line-height: 30px;
+	font-size: 22px;
+	margin-left: 75px;
+    margin-top: 45px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 992px;
+	height: 60px;
+	margin-top: 175px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 17px;
+	font-size: 1em;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  float: left;
+  
+
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 15px;
+
+	
+}
+
+.logo{
+	margin-left: 30px;
+	width: 130px;
+	height: 50px;
+	margin-top: 5px;
+	float: left;	
+}
+
+.escenauno{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenados{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenatres{
+    width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+#escenas{
+    width: 300px;
+	height: 650px;
+	margin-left: 0px;
+	padding-right: 10px;
+	padding-left: 0px;
+	margin-top: 55px;
+	text-align: center;
+	display: invisible;
+
+}
+
+section {
+	width: 640px;
+}
+
+article{
+	width: 992px;
+	height: 396px;
+	display: flex;
+	flex-direction: row-reverse;
+	}
+}
+
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+body{ background-color: yellow; } 
+
+
+main{
+	width: 1200px;
+	height: 700px;
+
+}
+
+header{
+  width: 1200px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+footer{
+	width: 1200px;
+}
+
+article{
+	width: 1200px;
+	height: 545px;
+	display: flex;
+	flex-direction: row-reverse;
+	}
+
+ li{
+    display: block;
+    width:105px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 130px;
+  margin-top: 65px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 55px;
+  margin-bottom:160;
+  margin-left: 130px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 4px -3px 11px rgba(255,255,255,0.84);
+}
+
+p{
+	color: white;
+	line-height: 30px;
+	font-size: 25px;
+	margin-left: 130px;
+    margin-top: 45px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+}

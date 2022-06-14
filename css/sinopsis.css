@@ -1,0 +1,770 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #636e72;
+}
+
+main{
+	width: 940px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondonegrodos.jpg);
+	background-size: 140%;
+	background-position: 40% 40%;
+
+}
+
+header{
+	width: 940px;
+	height: 62px;
+	background-color:#161B21;
+	opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;	
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 3.5rem;
+  margin-top: 55px;
+  letter-spacing: 2px;
+  margin-right: 80px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 45px;
+  margin-bottom:160;
+  margin-right: 80px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+}
+
+p{
+	color: white;
+	line-height: 25px;
+	font-size: 20px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 60px;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 940px;
+	height: 60px;
+	margin-top: 175px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 15px;
+	font-size: 1em;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 15px;
+	width: 150px;
+	height: 30px;
+	float: left;
+	
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 15px;
+
+	
+}
+.logo{
+	margin-left: 30px;
+	width: 100px;
+	height: 50px;
+	margin-top: 5px;
+	float: left;	
+}
+
+
+section {
+	width: 640px;
+	margin-right:200px ;
+
+}
+
+article{
+	width: 940px;
+	height: 350px;
+	flex-direction: row-reverse;
+	}
+
+section p{
+	width: 520px;
+}
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+ body{ background-color: yellow; } 
+
+
+main{
+	width: 576px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/spidermanvertical.jpg);
+	background-size: 140%;
+	background-position: 40% 40%;
+
+}
+
+header{
+	width: 576px;
+	height: 120px;
+	background-color:#161B21;
+	opacity: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	margin: auto;
+	margin-top: 5px;
+}
+
+  li{
+    display: block;
+    width:100px;
+    padding:6px 10px;
+    background-color:#eb2f06;
+    margin-top: 5px;
+    margin-left: 25px;
+   font-size: 20px;
+
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;	
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li: hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 45px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  margin-right: 80px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+  text-align: center ;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+h2{
+  color: #F2F2F2;
+  font-size: 35px;
+  margin-bottom:160;
+  margin-right: 80px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+  text-align: center;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+p{
+	color: white;
+	line-height: 25px;
+	font-size: 20px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 30px;
+	text-align: center;
+}
+
+section {
+	width: 576px;
+	margin-right:200px ;
+
+}
+
+article{
+	width: 576px;
+	height: 350px;
+	flex-direction: row-reverse;
+	}
+
+footer{
+	width: 576px;
+	height: 55px;
+	margin-top: 135px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;								
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 15px;
+	font-size: 15px;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 15px;
+	width: 130px;
+	height: 25px;
+	float: left;
+	
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 10px;
+	
+}
+
+.logo{
+	text-align: center;
+	width: 130px;
+	height: 40px;
+	margin-top: 6px;
+	margin-left: 215px;
+	float: left;	
+}
+}
+
+
+/*Medium (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+ body{ background-color: yellow; } 
+
+main{
+	width: 768px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondonegrodos.jpg);
+	background-size: 170%;
+	background-position: 40% 40%;
+
+}
+
+header{
+  width: 768px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;	
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 3.5rem;
+  margin-top: 55px;
+  letter-spacing: 2px;
+  margin-right: 80px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 45px;
+  margin-bottom:160;
+  margin-right: 80px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+p{
+	color: white;
+	line-height: 25px;
+	font-size: 19px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 60px;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 768px;
+	height: 60px;
+	margin-top: 175px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 15px;
+	font-size: 1em;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 15px;
+	width: 150px;
+	height: 30px;
+	float: left;
+	
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 15px;
+
+	
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+
+section {
+	width: 640px;
+	margin-right:200px ;
+
+}
+
+article{
+	width: 768px;
+	height: 340px;
+	flex-direction: row-reverse;
+	}
+
+section p{
+	width: 520px;
+}
+}
+
+/*Large (escritorio, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+body{ background-color: yellow; } 
+
+main{
+	width: 992px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondonegrodos.jpg);
+	background-size: 170%;
+	background-position: 50% 10%;
+
+}
+
+header{
+  width: 992px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+/* selector de etiqueta */
+ 
+ li{
+    display: block;
+    width:105px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 3.5rem;
+  margin-top: 55px;
+  letter-spacing: 2px;
+  margin-right: 80px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 45px;
+  margin-bottom:160;
+  margin-right: 80px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+p{
+	color: white;
+	line-height: 25px;
+	font-size: 18px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 60px;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 992px;
+	height: 60px;
+	margin-top: 175px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 17px;
+	font-size: 1em;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  float: left;
+  
+
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 15px;
+
+	
+}
+
+.logo{
+	margin-left: 30px;
+	width: 130px;
+	height: 50px;
+	margin-top: 5px;
+	float: left;	
+}
+
+section {
+	width: 640px;
+	margin-right:200px ;
+
+}
+
+article{
+	width: 992px;
+	height: 340px;
+	flex-direction: row-reverse;
+	}
+
+section p{
+	width: 520px;
+}
+}
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+body{ background-color: yellow; } 
+
+
+main{
+	width: 1200px;
+	height: 700px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondonegrodos.jpg);
+	background-size: 170%;
+	background-position: 60% 100%;
+
+}
+
+header{
+  width: 1200px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+  li{
+    display: block;
+    width:105px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 55px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  margin-right: 80px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 70px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 45px;
+  margin-bottom:160;
+  margin-right: 80px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 75px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+p{
+	color: white;
+	line-height: 25px;
+	font-size: 20px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 75px;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 1200px;
+	height: 75px;
+	margin-top: 16px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 22px;
+	font-size: 20px;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 16px;
+	width: 150px;
+	height: 35px;
+	float: left;
+	
+}
+
+.uces {
+	height: 38px;
+	width: 55px;
+	float: right;
+	margin-top: 15px;
+
+	
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+
+section {
+	width: 640px;
+	margin-right:200px ;
+
+}
+
+article{
+	width: 1200px;
+	height: 490px;
+	flex-direction: row-reverse;
+	}
+
+section p{
+	width: 450px;
+}
+}

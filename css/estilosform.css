@@ -1,0 +1,810 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 1200px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  }
+
+
+header{
+  width: 1200px;
+  height: 62px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+h1{
+  color: #F2F2F2;
+  font-size: 3.5rem;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+
+h2{
+  color: #D93730;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-family: "myriad pro", regular; 
+}
+
+form {
+  width: 450px;
+  height: 410px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: #243A4E;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -webkit-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -moz-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+
+
+}
+
+article{
+  text-align: center;
+  background-image: url(../img/spidermancielo.jpeg);  
+  background-size: 1050px;
+  height: 500px;
+
+}
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+p{
+  color: white;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  margin-left: 85px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+  width: 1200px;
+  height: 50px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+footer p{
+  padding-top: 15px;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+
+  
+}
+.img{
+  margin-top: 15px;
+  width: 150px;
+  height: 20px;
+  float: left;
+  
+}
+
+.uces {
+  height: 30px;
+  width: 49px;
+  float: right;
+  margin-top: 10px;
+
+  
+}
+.logo{
+  margin-left: 30px;
+  width: 100px;
+  height: 50px;
+  float: left;  
+}
+
+
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+ body{ background-color: yellow; } 
+
+ 
+main{
+  width: 576px;
+  height:700px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/fondoform.jpg);
+
+}
+
+header{
+  width: 576px;
+  height: 120px;
+  background-color:#161B21;
+  opacity: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  color: white;
+  font-size: 45px;
+  margin-top: 13px;
+  margin-left: 10px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+
+h2{
+  color: #eb2f06;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+form {
+  width: 450px;
+  height: 420px;
+  margin-top: 20px;
+  margin-left: 70px;
+  background-color: #0c2461;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -webkit-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -moz-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+
+
+}
+
+article{
+  width: 576px;
+  height: 390px;
+  flex-direction: row-reverse;
+  background-image: none;
+  }
+
+section{
+  width: 576px;
+}
+ 
+
+
+ul{
+  margin: auto;
+  margin-top: 10px;
+}
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:6px 10px;
+    background-color:#eb2f06;
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: 20px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+
+p{
+  color: white;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  margin-left: 85px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+
+footer{
+  width: 576px;
+  height: 55px;
+  margin-top: 125px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;               
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+footer p{
+  padding-top: 15px;
+  font-size: 15px;
+  width: 300px;
+  margin: auto;
+  
+}
+
+.botones{
+    background-color: #eb2f06 ;
+    color: white;
+}
+
+
+.img{
+  margin-top: 15px;
+  width: 130px;
+  height: 25px;
+  float: left;
+  
+}
+
+.uces {
+  height: 30px;
+  width: 49px;
+  float: right;
+  margin-top: 10px;
+  
+}
+.logo{
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  margin-top: 6px;
+  margin-left: 215px;
+  float: left;  
+}
+}
+
+/*Medium (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+ body{ background-color: yellow; } 
+
+
+main{
+  width: 768px;
+  height: 700px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/spidermancielo.jpeg);
+  background-size: 160%;
+  background-position: 23% 400%;
+
+}
+
+header{
+  width: 768px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+form {
+  width: 450px;
+  height: 430px;
+  margin-top: 2opx;
+  margin-left: 50px;
+  background-color: #0c2461;
+  padding: 10px;
+  color: white;
+  text-align: left;
+    box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -webkit-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -moz-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+
+
+}
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: white;
+  font-size: 55px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 60px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+h2{
+  color:#eb2f06;
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+
+}
+
+p{
+  color: white;
+  line-height: 1.4rem;
+  font-size: 25px;
+  margin-left: 85px;
+  margin-top: 45px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+  width: 768px;
+  height: 60px;
+  margin-top: 185px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+}
+
+footer p{
+  padding-top: 15px;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+  
+  
+  
+}
+
+.botones{
+    background-color: #eb2f06 ;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+
+.img{
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  float: left;
+  
+}
+
+.uces {
+  height: 30px;
+  width: 49px;
+  float: right;
+  margin-top: 15px;
+
+  
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+
+
+section {
+  width: 640px;
+}
+
+article{
+  width: 768px;
+  height: 366px;
+  background-image: none;
+  }
+}
+
+
+
+/*Large (escritorio, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+main{
+  width: 992px;
+  height: 700px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/spidermancielo.jpeg);
+  background-size: 120%;
+  background-position: 5% 230%;
+
+}
+
+header{
+  width: 992px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+form {
+  width: 520px;
+  height: 435px;
+  margin-top: 10px;
+  margin-left: 40px;
+  background-color: #0c2461;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -webkit-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -moz-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+
+}
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:105px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: white;
+  font-size: 55px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 50px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+h2{
+  color:#eb2f06;
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+p{
+  color: white;
+  line-height: 1.4rem;
+  font-size: 25px;
+  margin-left: 85px;
+  margin-top: 45px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+  width: 992px;
+  height: 60px;
+  margin-top: 200px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+
+footer p{
+  padding-top: 20px;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+  
+  
+  
+}
+
+.botones{
+    background-color: #eb2f06 ;
+    color: white;
+}
+
+.img{
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  float: left;
+  
+}
+
+.uces {
+  height: 30px;
+  width: 49px;
+  float: right;
+  margin-top: 15px;
+
+  
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+
+section {
+  width: 640px;
+}
+
+article{
+  width: 992px;
+  height: 350px;
+  background-image: none;
+  }
+}
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  main{
+  width: 1200px;
+  height: 700px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/spidermancielo.jpeg);
+  background-size: 120%;
+  background-position: 10% 0%;
+
+}
+
+header{
+  width: 1200px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+form {
+  width: 620px;
+  height: 430px;
+  margin-top: 10px;
+  margin-left: 45px;
+  background-color: #0c2461;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -webkit-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  -moz-box-shadow: 11px 0px 18px 8px rgba(255,255,255,0.76);
+  
+}
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:105px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: white;
+  font-size: 55px;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 50px;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+h2{
+  color:#eb2f06;
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+p{
+  color: white;
+  line-height: 1.4rem;
+  font-size: 25px;
+  margin-left: 85px;
+  margin-top: 45px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+  width: 1200px;
+  height: 70px;
+  margin-top: 30px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+footer p{
+  padding-top: 22px;
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+  
+  
+  
+}
+
+.botones{
+    background-color: #eb2f06 ;
+    color: white;
+    font-size: 15px;
+}
+
+
+.img{
+  margin-top: 16px;
+  width: 150px;
+  height: 35px;
+  float: left;
+  
+}
+
+.uces {
+  height: 38px;
+  width: 55px;
+  float: right;
+  margin-top: 15px;
+
+  
+}
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left; 
+
+}
+
+section {
+  width: 640px;
+}
+
+article{
+  width: 1200px;
+  height: 516px;
+  background-image: none;
+  }
+}
+
+
+
+
